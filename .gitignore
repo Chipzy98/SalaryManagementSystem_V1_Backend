@@ -1,0 +1,9 @@
+bin/
+obj/
+appsettings.Development.json
+*.user
+*.db
+*.vsidx
+.futdcache.v2
+.dtbcache.v2
+data/
