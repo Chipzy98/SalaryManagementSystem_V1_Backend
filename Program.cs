@@ -86,11 +86,8 @@ using (var scope = app.Services.CreateScope())
     scope.ServiceProvider.GetRequiredService<JsonDataStore>();
 }
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 app.UseCors("Frontend");
