@@ -1,0 +1,287 @@
+{
+  "NextUserId": 4,
+  "NextSalaryId": 6,
+  "NextExpenseId": 26,
+  "NextBudgetId": 7,
+  "Users": [
+    {
+      "Id": 1,
+      "FullName": "Tharaka Bandara",
+      "Email": "vimukthit19@gmail.com",
+      "PasswordHash": "$2a$11$dmDUBZIJmGSPuiR41FVKx.peSbbkjZGrseOd8H7wboqSrrBiK6YKq",
+      "Currency": "LKR",
+      "CreatedAt": "2026-07-02T07:00:30.4217262Z"
+    },
+    {
+      "Id": 2,
+      "FullName": "Kaveen",
+      "Email": "vishwajithjothirathna@gmail.com",
+      "PasswordHash": "$2a$11$01FgafA0KzyWmmPxlT7EWe.K7LgQxlJKL/aCplaJPywFuJdwmbAs2",
+      "Currency": "USD",
+      "CreatedAt": "2026-07-06T07:06:15.7407056Z"
+    },
+    {
+      "Id": 3,
+      "FullName": "Vinu",
+      "Email": "chipzy368@gmail.com",
+      "PasswordHash": "$2a$11$ixAN/oCE6fzrJtIkE967AeSobGjrqAlo9.tuY/GqeKWW1Kba.1hZ.",
+      "Currency": "LKR",
+      "CreatedAt": "2026-07-10T05:45:04.7533944Z"
+    }
+  ],
+  "Salaries": [
+    {
+      "Id": 1,
+      "UserId": 1,
+      "Month": "2026-06-01T00:00:00",
+      "Amount": 62000,
+      "Note": "Sal",
+      "CreatedAt": "2026-07-02T07:00:55.6048115Z"
+    },
+    {
+      "Id": 2,
+      "UserId": 1,
+      "Month": "2026-07-01T00:00:00",
+      "Amount": 72000,
+      "Note": "sal",
+      "CreatedAt": "2026-07-02T07:03:35.8720047Z"
+    },
+    {
+      "Id": 5,
+      "UserId": 3,
+      "Month": "2026-07-01T00:00:00",
+      "Amount": 60000,
+      "Note": "CESL SAL",
+      "CreatedAt": "2026-07-10T05:54:31.4138727Z"
+    }
+  ],
+  "Expenses": [
+    {
+      "Id": 2,
+      "UserId": 1,
+      "Amount": 200,
+      "Date": "2026-07-02T00:00:00Z",
+      "Category": "Food",
+      "Description": "asd",
+      "CreatedAt": "2026-07-02T07:02:23.2720229Z"
+    },
+    {
+      "Id": 3,
+      "UserId": 1,
+      "Amount": 200,
+      "Date": "2026-07-02T00:00:00Z",
+      "Category": "Transport",
+      "Description": "day transport",
+      "CreatedAt": "2026-07-02T07:04:23.5198272Z"
+    },
+    {
+      "Id": 4,
+      "UserId": 1,
+      "Amount": 1200,
+      "Date": "2026-06-23T00:00:00Z",
+      "Category": "Food",
+      "Description": "pickme",
+      "CreatedAt": "2026-07-02T07:06:03.7672868Z"
+    },
+    {
+      "Id": 5,
+      "UserId": 1,
+      "Amount": 1200,
+      "Date": "2026-07-02T00:00:00Z",
+      "Category": "Food",
+      "Description": "pickme",
+      "CreatedAt": "2026-07-02T07:07:03.794263Z"
+    },
+    {
+      "Id": 6,
+      "UserId": 1,
+      "Amount": 560,
+      "Date": "2026-07-02T00:00:00Z",
+      "Category": "Transport",
+      "Description": "Pickme thalahena",
+      "CreatedAt": "2026-07-02T07:07:51.3640022Z"
+    },
+    {
+      "Id": 7,
+      "UserId": 1,
+      "Amount": 572,
+      "Date": "2026-06-10T00:00:00Z",
+      "Category": "Food",
+      "Description": "pick me",
+      "CreatedAt": "2026-07-02T07:09:12.3857847Z"
+    },
+    {
+      "Id": 8,
+      "UserId": 1,
+      "Amount": 570,
+      "Date": "2026-06-11T00:00:00Z",
+      "Category": "Transport",
+      "Description": "pickme jawatta",
+      "CreatedAt": "2026-07-02T07:09:39.9802361Z"
+    },
+    {
+      "Id": 12,
+      "UserId": 3,
+      "Amount": 570,
+      "Date": "2026-07-10T00:00:00Z",
+      "Category": "Food",
+      "Description": "Keells",
+      "CreatedAt": "2026-07-10T05:49:32.5594926Z"
+    },
+    {
+      "Id": 13,
+      "UserId": 3,
+      "Amount": 1350,
+      "Date": "2026-07-10T00:00:00Z",
+      "Category": "Food",
+      "Description": "Chinese dragon",
+      "CreatedAt": "2026-07-10T05:49:53.745083Z"
+    },
+    {
+      "Id": 14,
+      "UserId": 3,
+      "Amount": 6500,
+      "Date": "2026-07-10T00:00:00Z",
+      "Category": "Bills",
+      "Description": "medicine",
+      "CreatedAt": "2026-07-10T05:50:38.9609309Z"
+    },
+    {
+      "Id": 15,
+      "UserId": 3,
+      "Amount": 400,
+      "Date": "2026-07-10T00:00:00Z",
+      "Category": "Transport",
+      "Description": "office to home",
+      "CreatedAt": "2026-07-10T05:51:13.2067486Z"
+    },
+    {
+      "Id": 16,
+      "UserId": 3,
+      "Amount": 120,
+      "Date": "2026-07-10T00:00:00Z",
+      "Category": "Food",
+      "Description": "bath kola",
+      "CreatedAt": "2026-07-10T05:52:57.0301954Z"
+    },
+    {
+      "Id": 17,
+      "UserId": 3,
+      "Amount": 15000,
+      "Date": "2026-07-10T00:00:00Z",
+      "Category": "mobile",
+      "Description": "phone",
+      "CreatedAt": "2026-07-10T05:56:09.8623503Z"
+    },
+    {
+      "Id": 18,
+      "UserId": 3,
+      "Amount": 5000,
+      "Date": "2026-07-10T00:00:00Z",
+      "Category": "GF",
+      "Description": "Flowers",
+      "CreatedAt": "2026-07-10T05:57:43.290432Z"
+    },
+    {
+      "Id": 19,
+      "UserId": 3,
+      "Amount": 3000,
+      "Date": "2026-07-10T00:00:00Z",
+      "Category": "GF",
+      "Description": "cake",
+      "CreatedAt": "2026-07-10T05:58:45.5370257Z"
+    },
+    {
+      "Id": 20,
+      "UserId": 3,
+      "Amount": 10000,
+      "Date": "2026-07-10T00:00:00Z",
+      "Category": "GF",
+      "Description": "Gifts",
+      "CreatedAt": "2026-07-10T05:59:26.2103156Z"
+    },
+    {
+      "Id": 21,
+      "UserId": 3,
+      "Amount": 2000,
+      "Date": "2026-07-10T00:00:00Z",
+      "Category": "GF",
+      "Description": "Others",
+      "CreatedAt": "2026-07-10T06:00:45.8673259Z"
+    },
+    {
+      "Id": 22,
+      "UserId": 3,
+      "Amount": 500,
+      "Date": "2026-07-10T00:00:00Z",
+      "Category": "Bills",
+      "Description": "Ajith uncle Fairwell ",
+      "CreatedAt": "2026-07-10T10:53:06.4754104Z"
+    },
+    {
+      "Id": 23,
+      "UserId": 3,
+      "Amount": 460,
+      "Date": "2026-07-11T00:00:00Z",
+      "Category": "Food",
+      "Description": "uder lunch",
+      "CreatedAt": "2026-07-11T08:19:45.6094267Z"
+    },
+    {
+      "Id": 24,
+      "UserId": 3,
+      "Amount": 215,
+      "Date": "2026-07-11T00:00:00Z",
+      "Category": "Transport",
+      "Description": "Ofz to Home",
+      "CreatedAt": "2026-07-11T08:22:12.406671Z"
+    },
+    {
+      "Id": 25,
+      "UserId": 3,
+      "Amount": 380,
+      "Date": "2026-07-11T00:00:00Z",
+      "Category": "Food",
+      "Description": "breackfast",
+      "CreatedAt": "2026-07-11T08:22:35.578941Z"
+    }
+  ],
+  "Budgets": [
+    {
+      "Id": 1,
+      "UserId": 1,
+      "Category": "Food",
+      "LimitAmount": 1500
+    },
+    {
+      "Id": 2,
+      "UserId": 1,
+      "Category": "Transport",
+      "LimitAmount": 6000
+    },
+    {
+      "Id": 3,
+      "UserId": 3,
+      "Category": "Food",
+      "LimitAmount": 6000
+    },
+    {
+      "Id": 4,
+      "UserId": 3,
+      "Category": "Transport",
+      "LimitAmount": 6000
+    },
+    {
+      "Id": 5,
+      "UserId": 3,
+      "Category": "Bills",
+      "LimitAmount": 7000
+    },
+    {
+      "Id": 6,
+      "UserId": 3,
+      "Category": "Other",
+      "LimitAmount": 7000
+    }
+  ]
+}

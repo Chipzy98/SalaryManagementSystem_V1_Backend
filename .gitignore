@@ -6,4 +6,3 @@ appsettings.Development.json
 *.vsidx
 .futdcache.v2
 .dtbcache.v2
-data/
